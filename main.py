@@ -10,8 +10,11 @@ BUCKET_SIZE = 10
 
 ALLOWED_ORIGINS = [
     "https://exam.sanand.workers.dev",
+    "https://tds.sanand.workers.dev",
+    "https://sanand.workers.dev",
     "http://localhost:3000",
     "http://127.0.0.1:8000",
+    "null",
 ]
 
 rate_store = defaultdict(int)
